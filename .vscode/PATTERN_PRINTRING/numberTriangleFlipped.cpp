@@ -1,0 +1,32 @@
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"enter number of rows";
+//     cin>>n;
+//     for(int k=1;k<=n;k++){
+//     for(int i=1;i<=n-k;i++){
+//         cout<<" ";
+//     }
+//     for(int j=1;j<=k;j++){
+//         cout<<j;
+//     }
+//     cout<<endl;
+// }
+// }
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter number of rows";
+    cin>>n;
+    for(int k=1;k<=n;k++){
+    for(int i=1;i<=n;i++){
+        if((k+i)>=n+1)cout<<"*";
+        else cout<<" ";
+    }
+    cout<<endl;
+}
+}
