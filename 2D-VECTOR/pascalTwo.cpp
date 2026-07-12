@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 int main(){
-    int NumRows;
+    int NumRows,index;
     cout<<"enter number of rows \n";
     cin>>NumRows;
     vector< vector<int> > v;
@@ -20,11 +20,8 @@ int main(){
             }
         }
     }
-    for(int i=0;i<NumRows;i++){
-        for(int j=0;j<=i;j++){
-            cout<<v[i][j]<<" ";
-        }
-        cout<<endl;
-    }
 
+   cout<<"\nenter the row you want\n";
+   cin>>index;
+   cout<<a(index+1);
 }

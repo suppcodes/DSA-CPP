@@ -18,6 +18,8 @@ int main(){
         }
         cout<<endl;
     }
+
+    //ONLY WORKS FOR SQUARE MATRIX
     for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
            int temp=a[i][j];
